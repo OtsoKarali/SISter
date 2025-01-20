@@ -1,0 +1,22 @@
+/* style.css */
+
+/* Keep the chart responsive but not too large */
+.chart-container {
+    position: relative;
+    width: 600px;    /* You can change this as needed */
+    height: 400px;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 10px;
+  }
+  
+  /* If you want the chart fluid, you could do something like:
+  .chart-container {
+    width: 80%;
+    height: 500px;
+    max-width: 800px;
+  }
+  */
+  

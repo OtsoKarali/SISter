@@ -1,0 +1,14 @@
+{
+    "name": "SISter",
+    "version": "1.0.0",
+    "description": "Adds a popup next to certain classes in the enrollment system.",
+    "manifest_version": 3,
+    "permissions": [],
+    "content_scripts": [
+      {
+        "matches": ["https://sisuva.admin.virginia.edu/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
